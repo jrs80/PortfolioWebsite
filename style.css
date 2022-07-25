@@ -1,0 +1,42 @@
+
+#pic {
+    float:left;
+    padding-top:20px;
+    padding-right:20px;
+  }
+#descr {
+    padding-top:20px;
+    text-align:left;
+ }
+body {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 22px;
+    text-align:left;
+    background-color: rgb(201, 201, 201);
+    color: rgb(60, 60, 129);
+    margin: 50px;
+    padding: 50px;
+ }
+ header, footer { 
+     font-size: 22px; 
+     text-align: center;
+ }
+ h2 {
+    text-align: center;
+ }
+
+ a:link, a:visited {
+     color: darkcyan;
+     text-decoration:none;
+ }
+
+ a:hover{
+    font-weight: bold;
+    color:rgb(112, 103, 170);
+ }
+
+ .resume {
+     padding-top: 75px;
+     font-size: 22px;
+     text-align: left;
+ }
