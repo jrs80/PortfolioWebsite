@@ -9,7 +9,7 @@
     text-align:justify;
  }
 body {
-    font-family: Garamond, "Times New Roman", serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
     text-align:left;
     background-color: rgb(201, 201, 201);
@@ -40,6 +40,28 @@ body {
  }
 
  .accordion {
-     padding-top: 75px;
+    padding-top: 75px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 0 1px;
+ }
+ .accordion-button {
+    font-size: 22px;
+    background-color: lightsteelblue;
+ }
+.accordion-button:hover {
+    text-shadow: 0 0 1px;
+    color: whitesmoke;
+    background-color:rgb(112, 103, 170);
+}
 
+ .accordion-item {
+    margin-top: 5px;
+    font-size: 22px;
+    text-shadow: none;
+    text-align: left;
+ }
+ #contact {
+    text-shadow: 0 0 1px;
+    font-size: 30px;
  }
