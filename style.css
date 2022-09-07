@@ -6,7 +6,7 @@
   }
 #descr {
     padding-top:20px;
-    text-align:left;
+    text-align:justify;
  }
 body {
     font-family: Garamond, "Times New Roman", serif;
@@ -20,6 +20,10 @@ body {
  header, footer { 
      font-size: 22px; 
      text-align: center;
+ }
+
+ footer {
+    margin-top: 50px;
  }
  h2 {
     text-align: center;
@@ -35,8 +39,7 @@ body {
     color:rgb(112, 103, 170);
  }
 
- .resume {
+ .accordion {
      padding-top: 75px;
-     font-size: 22px;
-     text-align: left;
+
  }
