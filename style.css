@@ -8,29 +8,29 @@
     padding-top:20px;
     text-align:justify;
  }
+
+ 
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
     text-align:left;
     background-color: rgb(201, 201, 201);
     color: rgb(60, 60, 129);
-    margin: 50px;
-    padding: 50px;
+    margin: 25px;
+    padding: 10px;
  }
  header, footer { 
      font-size: 22px; 
+     margin-top: 75px;
      text-align: center;
  }
 
- footer {
-    margin-top: 50px;
- }
  h2 {
     text-align: center;
  }
 
  a:link, a:visited {
-     color: darkcyan;
+     color: hwb(194 20% 33%);
      text-decoration:none;
  }
 
@@ -65,3 +65,7 @@ body {
     text-shadow: 0 0 1px;
     font-size: 30px;
  }
+ nav{
+    background-color: lightsteelblue;
+ }
+

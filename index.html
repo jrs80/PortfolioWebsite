@@ -17,17 +17,17 @@
 		
 		
 	<!-- Bootstrap Navbar: -->
-		<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+		<nav class="navbar fixed-top navbar-expand-lg">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Welcome to Jason Steffen's page!</a>
+				<a class="navbar-brand" href="#" style="color:rgb(60, 60, 129)"><strong>Welcome!</strong></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				  <div class="navbar-nav">
-					<a class="nav-link" href="#descr">About Me</a>
-					<a class="nav-link" href="#projectAccordion">Projects</a>
-					<a class="nav-link" href="#contact">Contact</a>
+					<a class="nav-link" style="color:rgb(60, 60, 129)" href="#descr">About Me</a>
+					<a class="nav-link" style="color:rgb(60, 60, 129)" href="#projectAccordion">Projects</a>
+					<a class="nav-link" style="color:rgb(60, 60, 129)" href="#contact">Contact</a>
 				  </div>
 				</div>
 			  </div>
@@ -39,13 +39,12 @@
 					  and team-based projects.  Fast learner who enjoys researching and implementing new technologies.</p>
 
 					  <strong>Background</strong><p>After a career in law and academia, I decided I 
-					  anted to do something more enjoyable with my
-					  career.  I had enjoyed computer programming as a hobby and had taught myself C and C++hobby, 
+					  wanted to do something more fun.  I had enjoyed computer programming as a hobby and had taught myself C and C++, 
 					  so when I decided to make a career change, it seemed obvious that the next programming language
 					   I should learn was C#.  I took a bootcamp course through <a href="https://truecoders.io/">TrueCoders</a>.  
-					   Their C#/.NET program is fantastic.  I learned much more than C# syntax: principles of OOP, TDD, and debugging; 
-					   version control wth Git; database manipulation with SQL (MySQL) and ORMs (Dapper); how to use APIs & JSON; 
-					   and using HTML/CSS/JavaScript to design web pages (like this one, which I designed from scratch with Bootstrap).</p>
+					   Their C#/.NET program is fantastic.  I learned much more than just C# syntax, including principles of OOP, TDD, and debugging; 
+					   the powerful ASP.NET Core MVC framework; version control wth Git; database manipulation with SQL and ORMs; APIs & JSON; 
+					   and HTML/CSS/JavaScript to design web pages (like this one).</p>
 		</div>					
 	
 
@@ -55,11 +54,11 @@
 
 		<div class="accordion-item">
 		  <h2 class="accordion-header" id="headingOne">
-			<button class="accordion-button" type="buttion" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 				TheraBase
 			  </button>
 			</h2>
-		  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-parent="#projectAccordion">
+		  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#projectAccordion">
 			<div class="accordion-body">
 				<strong><a href="https://github.com/jrs80/TheraBase.git">TheraBase</a></strong> is an ASP.NET Core MVC project that pulls SQL data from a mock mental-healthcare provider database, allowing users to find a provider, book appointments, etc.
 				The database was created with MySQL.  The project is mainly written in C#; the user interface utilizes HTML/Razor/CSS and JavaScript.  It is fully CRUD-functional, and implements an API for the calendering system.
@@ -74,7 +73,7 @@
 				Banking Simulator
 			  </button>
 			</h2>
-			<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+			<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#projectAccordion">
 			  <div class="accordion-body">
 				<strong>Banking Simulator</strong> 
 				<p>This is a functional banking simulator that allows the user to view balance, make deposits and withdrawals, etc.  I originally wrote it for the console, then updated it as a WinForms project.</p>
@@ -84,7 +83,7 @@
 				</ul>
 				</div>
 			</div>
-		  </div>
+		</div>
 
 		  <div class="accordion-item">
 			<h2 class="accordion-header" id="headingThree">
@@ -92,7 +91,7 @@
 				BestBuy Database
 			  </button>
 			</h2>
-			<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+			<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#projectAccordion">
 			  <div class="accordion-body">
 				<strong><a href="https://github.com/jrs80/ASPNET">BestBuy Database</a></strong> 
 				<p>This is an ASP.NET MVC project that simulates a BestBuy database with full CRUD functionality.</p>
@@ -106,7 +105,7 @@
 				TacoParser
 			  </button>
 			</h2>
-			<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+			<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#projectAccordion">
 			  <div class="accordion-body">
 				<strong><a href="https://github.com/jrs80/TacoParser.git">TacoParser</a></strong> takes data from .CSV file with names and geographic coordinates of Taco Bell restaurants and finds the two most geographically distant.  Utilizes interfaces and TDD.
 			  </div>
@@ -119,7 +118,7 @@
 				KayneREST
 			  </button>
 			</h2>
-			<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+			<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#projectAccordion">
 			  <div class="accordion-body">
 				<strong><a href="https://github.com/jrs80/KanyeREST.git">KanyeREST</a></strong> is a fun project that uses APIs to simulate conversation between Kanye West and Ron Swanson.
 			  </div>
@@ -132,7 +131,7 @@
 				WeatherAPI
 			  </button>
 			</h2>
-			<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+			<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#projectAccordion">
 			  <div class="accordion-body">
 				<strong><a href="https://github.com/jrs80/WeatherAPI.git">WeatherAPI</a></strong> gathers and parses JSON from an API to display weather information for city user inputs.
 			  </div>
@@ -145,7 +144,7 @@
 				StudentList
 			  </button>
 			</h2>
-			<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+			<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#projectAccordion">
 			  <div class="accordion-body">
 				<strong><a href="https://github.com/jrs80/FactoryPattern.git">Student List</a></strong> This simulation of a college student database uses factory pattern development in C#.
 			  </div>
@@ -158,13 +157,25 @@
 				The Butler Did It
 			  </button>
 			</h2>
-			<div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+			<div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#projectAccordion">
 			  <div class="accordion-body">
 				<strong><a href="https://github.com/jrs80/thebutlerdidit.git">The Butler Did It</a></strong> is a short text-adventure game written in C++.
 			  </div>
 			</div>
 		  </div>
 
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="headingNine">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+					Just For Fun
+				</button></h2>
+			<div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#projectAccordion">
+				<div class="accordion-body">
+					Try out my <strong><a href="https://www.codewars.com/kata/62affa29686419962d4639ea">cornhole kata</a></strong> on Codewars!
+				</div>
+			</div>
+		</div>
+		
 	</div>
 	
 	
@@ -176,10 +187,9 @@
 		<a href="https://github.com/jrs80"><img src="gh.png" width="20" height="20"></a>&nbsp&nbsp&nbsp
 		<a href="https://www.codewars.com/users/jrs80"><img src="https://www.codewars.com/users/jrs80/badges/micro"></a>&nbsp&nbsp&nbsp
 		<a href="https://www.sololearn.com/profile/24291233"><img src="sl.png" width="20" height="20"></a>
-	<p></p>
-	<h2>For Fun...</h2>
-		<a href="https://www.codewars.com/kata/62affa29686419962d4639ea">Try out my cornhole kata on Codewars!</a>
 	</footer>
+
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
